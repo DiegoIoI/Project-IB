@@ -15,5 +15,5 @@ def index():
     return render_template('index.html', is_safe=None, message=None, url=None)
 
 
-if __name__ == '__main__':
+if __name__ == '__finalcheck__':
     app.run(debug=True)
