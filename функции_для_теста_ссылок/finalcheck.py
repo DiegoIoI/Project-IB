@@ -1,7 +1,7 @@
 from check_url import check_domain, check_https, get_domain_age
 from check_rank import is_top_1_million, get_domain_authority
-from check_domain import check_suspicious_characters, check_subdomains, check_ssl, check_google_safe_browsing
-from db import insert_result, get_result, create_db
+from check_domian import check_suspicious_characters, check_subdomains, check_ssl, check_google_safe_browsing
+from database import insert_result, get_result, create_db
 from logger import log_check
 from urllib.parse import urlparse
 

@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from main import check_phishing
+from finalcheck import check_phishing
 
 app = Flask(__name__)
 
